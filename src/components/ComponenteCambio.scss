@@ -1,0 +1,17 @@
+@mixin button {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+	width: 15%;
+}
+
+.encendido {
+	@include button;
+	background-color: lightgreen;
+}
+
+.apagado {
+	@include button;
+	background-color: red;
+}
