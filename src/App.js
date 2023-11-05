@@ -10,7 +10,7 @@ const Saludo = ({ nombre }) => {
 function App() {
   return (
     <div className="App">
-      <Saludo nombre="Heroku"/>
+      <Saludo nombre="Netlify"/>
       <ComponenteCambio/>
     </div>
   );
